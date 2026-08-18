@@ -1,6 +1,5 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import GitHubButton from "react-github-btn";
 
 const ProjectCard = ({ project: { title, description, tags, link } }) => {
   return (
@@ -19,9 +18,9 @@ const ProjectCard = ({ project: { title, description, tags, link } }) => {
         ))}
       </div>
       <div class="w-full text-center">
-        <GitHubButton href={link} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton>
-        {"  "}
-        <GitHubButton href={link + "/fork"} data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</GitHubButton>
+        <a href={link} className="inline-block px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">
+          View Project
+        </a>
       </div>
     </div>
   );

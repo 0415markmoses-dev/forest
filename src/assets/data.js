@@ -6,9 +6,8 @@ const data = {
   name: "Brayden W",
   title: "Front-End Developer/Designer",
   social: {
-    github: "https://github.com/BraydenTW",
-    dribbble: "https://github.com/BraydenTW",
-    twitter: "https://github.com/BraydenTW",
+    dribbble: "https://dribbble.com/",
+    twitter: "https://twitter.com/",
     email: "someone@example.com",
   },
   about: {
@@ -40,7 +39,7 @@ const data = {
         "reactjs",
         "tailwindcss"
       ],
-      link: "https://github.com/braydentw/react-tailwind-portfolio"
+      link: "https://example.com/project1"
     },
     {
       title: "My personal website",
@@ -51,7 +50,7 @@ const data = {
         "nextjs",
         "tailwindcss"
       ],
-      link: "https://github.com/braydentW/braydentw"
+      link: "https://example.com/project2"
     }
   ]
 };

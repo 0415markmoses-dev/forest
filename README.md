@@ -4,14 +4,9 @@
 
 ![Open React template preview](./demo.png)
 
-Made with 💙 by [Brayden W](https://braydentw.github.io).
-
-## Live demo
-
-Check out the live demo here 👉️ https://react-tailwind-portfolio.braydentw.vercel.app/
-
 ## Table of contents
 
+* [Quick Start](#quick-start)
 * [Usage](#usage)
   * [Available Scripts](#available-scripts)
     * [npm start](#npm-start)
@@ -26,12 +21,35 @@ Check out the live demo here 👉️ https://react-tailwind-portfolio.braydentw.
     * [Deployment](#deployment)
     * [npm run build fails to minify](#npm-run-build-fails-to-minify)
   * [Google Analytics Setup](#google-analytics-setup)
+* [Deploy to Vercel](#deploy-to-vercel)
 * [Terms and License](#terms-and-license)
-* [About Me](#about-me)
 
 ## Usage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App.
+
+### Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd react-tailwind-portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+4. **Customize your portfolio:**
+   Edit `src/assets/data.js` to add your information, skills, and projects.
+
+## Usage
 
 ### Available Scripts
 
@@ -105,20 +123,44 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Google Analytics Setup
 
-This template uses the [React Google Analytics Module](https://github.com/react-ga/react-ga).
+In order to track visitors, you need to set an [environment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/) called `REACT_APP_GA_CODE` storing your GA Tracking ID.
 
-In order to track visitors, you need to set an [environment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/) called `REACT_APP_GA_CODE` storing your [GA Tracking ID](https://support.google.com/analytics/answer/7372977).
+## Deploy to Vercel
+
+This project is fully compatible with Vercel and can be deployed with a single click.
+
+### Option 1: Deploy with Vercel CLI
+
+```bash
+npm install -g vercel
+vercel
+```
+
+### Option 2: Deploy via GitHub
+
+1. Push this repository to GitHub
+2. Visit [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Import your GitHub repository
+5. Vercel will automatically detect the project settings
+6. Click "Deploy"
+
+### Option 3: Deploy Button
+
+Click the button below to deploy directly to Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourname%2Freact-tailwind-portfolio)
+
+### Environment Variables on Vercel
+
+To use Google Analytics on Vercel:
+
+1. Go to your Vercel project settings
+2. Navigate to "Environment Variables"
+3. Add `REACT_APP_GA_CODE` with your Google Analytics tracking ID
 
 ## Terms and License
 
 - Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
+- Use it for personal and commercial projects, but please don't republish, redistribute, or resell the template.
 - Attribution is not required, although it is really appreciated.
-
----
-
-### Like my work?
-
-<a href="https://www.buymeacoffee.com/braydenw" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="210" ></a>
-
-Made by [@BraydenTW](https://github.com/braydentw)

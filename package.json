@@ -11,13 +11,12 @@
     "aos": "^2.3.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-github-btn": "^1.2.0",
     "react-icons": "^3.11.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
-    "build": "npm run watch:css && react-scripts build",
+    "build": "npm run watch:css && CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
