@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaDiscord, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -26,14 +26,14 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="section-title text-center">Get In Touch</h2>
+        <h2 className="section-title text-center">Start A Roblox Commission</h2>
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div data-aos="fade-up">
-            <h3 className="text-2xl font-bold text-white mb-6">Let's talk!</h3>
+            <h3 className="text-2xl font-bold text-white mb-6">Bring your idea to Forest.</h3>
             <p className="text-gray-300 mb-8">
-              I'm always interested in hearing about new projects and opportunities. Feel free to reach out if you have any questions or just want to chat!
+              Tell me what you are building, what you need designed or built, and what the finished experience should feel like. Include references, scope, and your timeline so I can understand the brief.
             </p>
 
             <div className="space-y-6">
@@ -42,22 +42,18 @@ const Contact = () => {
                   <FaEnvelope className="text-lg" />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-400">Email</p>
-                  <a href="mailto:hello@example.com" className="text-white font-medium hover:text-blue-400 transition-colors">
-                    hello@example.com
-                  </a>
+                  <p className="text-sm text-gray-400">Commission brief</p>
+                  <span className="text-white font-medium">Use the form to get started</span>
                 </div>
               </div>
 
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-lg bg-dark-800 border border-dark-700 flex items-center justify-center text-blue-400">
-                  <FaPhone className="text-lg" />
+                  <FaDiscord className="text-lg" />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-400">Phone</p>
-                  <a href="tel:+1234567890" className="text-white font-medium hover:text-blue-400 transition-colors">
-                    +1 (234) 567-890
-                  </a>
+                  <p className="text-sm text-gray-400">Availability</p>
+                  <span className="text-white font-medium">Open for Roblox commissions</span>
                 </div>
               </div>
             </div>
@@ -100,7 +96,7 @@ const Contact = () => {
                 required
                 rows="4"
                 className="w-full px-4 py-2 bg-dark-700 border border-dark-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 transition-colors resize-none"
-                placeholder="Your message..."
+                placeholder="Tell Forest about your Roblox commission..."
               ></textarea>
             </div>
 
@@ -108,7 +104,7 @@ const Contact = () => {
               type="submit"
               className="w-full btn-primary"
             >
-              Send Message
+              Send commission brief
             </button>
           </form>
         </div>

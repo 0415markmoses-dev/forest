@@ -6,11 +6,11 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent mb-4 md:mb-0">
-            Portfolio
+            Forest
           </div>
           
           <p className="text-gray-400 text-center md:text-right">
-            © 2024 Your Name. All rights reserved. | Built with React & Tailwind CSS
+            © 2026 Forest. Roblox UI/UX design and building commissions.
           </p>
         </div>
       </div>

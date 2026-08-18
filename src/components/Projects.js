@@ -1,38 +1,35 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 
 const Projects = () => {
   const projectsData = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React frontend and Node.js backend. Features include product management, user authentication, and payment integration.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      image: '🛍️',
-      link: '#',
-      github: '#'
+      title: 'Game UI & HUDs',
+      description: 'Clean, expressive interfaces that help players understand your game and make every interaction feel intentional.',
+      tags: ['UI design', 'UX flow', 'Roblox'],
+      image: 'UI',
+      link: '#contact'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates using WebSockets. Includes team collaboration features and analytics dashboard.',
-      tags: ['React', 'Socket.io', 'Express', 'PostgreSQL'],
-      image: '✓',
-      link: '#',
-      github: '#'
+      title: 'Roblox Environments',
+      description: 'Detailed spaces with strong composition, memorable landmarks, and an atmosphere built around your game’s identity.',
+      tags: ['Building', 'World design', 'Detailing'],
+      image: '3D',
+      link: '#contact'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A beautiful weather application that provides real-time weather data with forecasts. Features geolocation support and responsive design.',
-      tags: ['React', 'Weather API', 'Tailwind CSS', 'JavaScript'],
-      image: '🌤️',
-      link: '#',
-      github: '#'
+      title: 'Full Experience Direction',
+      description: 'A joined-up visual direction for games that need their world, interface, and player journey to feel like one experience.',
+      tags: ['Concepting', 'UI/UX', 'Roblox'],
+      image: 'FX',
+      link: '#contact'
     },
   ];
 
   return (
     <section id="projects" className="py-20 bg-dark-800/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="section-title text-center">Featured Projects</h2>
+        <h2 className="section-title text-center">Commission Areas</h2>
         
         <div className="grid md:grid-cols-3 gap-8">
           {projectsData.map((project, index) => (
@@ -42,7 +39,6 @@ const Projects = () => {
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
-              {/* Project Image Placeholder */}
               <div className="w-full h-40 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg flex items-center justify-center text-5xl mb-4">
                 {project.image}
               </div>
@@ -63,19 +59,12 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* Links */}
               <div className="flex gap-3 pt-4 border-t border-dark-700">
                 <a 
                   href={project.link}
                   className="flex-1 flex items-center justify-center gap-2 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >
-                  <FaExternalLinkAlt className="text-sm" /> Live
-                </a>
-                <a 
-                  href={project.github}
-                  className="flex-1 flex items-center justify-center gap-2 py-2 bg-dark-700 text-gray-100 rounded-lg border border-dark-600 hover:bg-dark-600 transition-colors"
-                >
-                  <FaGithub className="text-sm" /> Code
+                  Discuss this <FaArrowRight className="text-sm" />
                 </a>
               </div>
             </div>

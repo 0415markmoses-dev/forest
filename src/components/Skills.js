@@ -1,30 +1,30 @@
 import React from 'react';
-import { FaReact, FaNode, FaPython, FaDatabase, FaGitAlt, FaDocker } from 'react-icons/fa';
+import { FaPaintBrush, FaCube, FaGamepad, FaCode, FaUsers, FaLightbulb } from 'react-icons/fa';
 
 const Skills = () => {
   const skillsData = [
     {
-      category: 'Frontend',
+      category: 'UI / UX Design',
       skills: [
-        { name: 'React', level: 90, icon: <FaReact /> },
-        { name: 'JavaScript', level: 95, icon: null },
-        { name: 'Tailwind CSS', level: 90, icon: null },
+        { name: 'Interface design', level: 95, icon: <FaPaintBrush /> },
+        { name: 'Player-first layouts', level: 92, icon: <FaGamepad /> },
+        { name: 'Visual direction', level: 90, icon: <FaLightbulb /> },
       ]
     },
     {
-      category: 'Backend',
+      category: 'Roblox Building',
       skills: [
-        { name: 'Node.js', level: 88, icon: <FaNode /> },
-        { name: 'Python', level: 80, icon: <FaPython /> },
-        { name: 'Databases', level: 85, icon: <FaDatabase /> },
+        { name: 'Environment building', level: 90, icon: <FaCube /> },
+        { name: 'World composition', level: 88, icon: <FaGamepad /> },
+        { name: 'Detail passes', level: 86, icon: <FaPaintBrush /> },
       ]
     },
     {
-      category: 'Tools & DevOps',
+      category: 'Commission Process',
       skills: [
-        { name: 'Git', level: 92, icon: <FaGitAlt /> },
-        { name: 'Docker', level: 85, icon: <FaDocker /> },
-        { name: 'CI/CD', level: 80, icon: null },
+        { name: 'Brief discovery', level: 95, icon: <FaUsers /> },
+        { name: 'Clear communication', level: 94, icon: <FaUsers /> },
+        { name: 'Reliable delivery', level: 90, icon: <FaCode /> },
       ]
     }
   ];
@@ -32,7 +32,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="section-title text-center">Skills & Expertise</h2>
+        <h2 className="section-title text-center">What I Bring To A Commission</h2>
         
         <div className="grid md:grid-cols-3 gap-8">
           {skillsData.map((skillGroup, groupIndex) => (

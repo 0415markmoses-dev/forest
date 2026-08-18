@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-dark-800/50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="section-title text-center">About Me</h2>
+        <h2 className="section-title text-center">Meet Forest</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div data-aos="fade-up">
@@ -13,25 +13,25 @@ const About = () => {
 
           <div data-aos="fade-up" data-aos-delay="100">
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with a love for creating elegant solutions to complex problems. With 5+ years of experience in web development, I've worked with startups and established companies to build scalable applications.
+              I am a professional UI/UX designer and Builder. I have contributed to over 3 million visits. I have been a UI designer for over 3 years and a builder for about a year now.
             </p>
             
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              My journey in tech started with a curiosity about how things work, and it has evolved into a career dedicated to crafting beautiful, performant web experiences. I'm constantly learning new technologies and best practices to stay at the forefront of web development.
+              I turn ideas into polished Roblox experiences with a strong eye for atmosphere, clarity, and the way players move through a world. Every commission starts with your vision and ends with something built to be remembered.
             </p>
 
             <div className="space-y-4">
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <p className="text-gray-300">Specialized in React, Node.js, and modern web technologies</p>
+                <p className="text-gray-300">UI/UX design for Roblox games, communities, and interfaces</p>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <p className="text-gray-300">Passionate about UI/UX design and user-centric development</p>
+                <p className="text-gray-300">Environment building with a focus on detail and player experience</p>
               </div>
               <div className="flex items-start gap-4">
                 <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <p className="text-gray-300">Always eager to mentor junior developers and collaborate</p>
+                <p className="text-gray-300">A collaborative process shaped around your commission brief</p>
               </div>
             </div>
           </div>
